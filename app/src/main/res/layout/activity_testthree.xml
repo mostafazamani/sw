@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ba.swift.testthree">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="109dp"
+        android:layout_height="102dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btncolor9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="13dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="98dp" />
+
+        <Button
+            android:id="@+id/btncolor8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_alignBaseline="@+id/btncolor9"
+            android:layout_alignBottom="@+id/btncolor9"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btncolor7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_alignBaseline="@+id/btncolor8"
+            android:layout_alignBottom="@+id/btncolor8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btncolor6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_marginBottom="61dp"
+            android:layout_above="@+id/btncolor9"
+            android:layout_alignLeft="@+id/btncolor9"
+            android:layout_alignStart="@+id/btncolor9" />
+
+        <Button
+            android:id="@+id/btncolor5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_alignBaseline="@+id/btncolor6"
+            android:layout_alignBottom="@+id/btncolor6"
+            android:layout_alignLeft="@+id/btncolor8"
+            android:layout_alignStart="@+id/btncolor8" />
+
+        <Button
+            android:id="@+id/btncolor4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_alignBaseline="@+id/btncolor5"
+            android:layout_alignBottom="@+id/btncolor5"
+            android:layout_alignLeft="@+id/btncolor7"
+            android:layout_alignStart="@+id/btncolor7" />
+
+        <Button
+            android:id="@+id/btncolor3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_marginBottom="58dp"
+            android:layout_above="@+id/btncolor6"
+            android:layout_alignLeft="@+id/btncolor6"
+            android:layout_alignStart="@+id/btncolor6" />
+
+        <Button
+            android:id="@+id/btncolor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_alignBaseline="@+id/btncolor3"
+            android:layout_alignBottom="@+id/btncolor3"
+            android:layout_alignLeft="@+id/btncolor5"
+            android:layout_alignStart="@+id/btncolor5" />
+
+        <Button
+            android:id="@+id/btncolor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_alignBaseline="@+id/btncolor2"
+            android:layout_alignBottom="@+id/btncolor2"
+            android:layout_alignLeft="@+id/btncolor4"
+            android:layout_alignStart="@+id/btncolor4" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
